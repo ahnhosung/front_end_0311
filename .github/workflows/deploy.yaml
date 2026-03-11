@@ -13,7 +13,7 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout Source 
+      - name: Checkout Source     
         uses: actions/checkout@v4
 
       # Github Actions 워크플로우에서 Nginx 서버로
